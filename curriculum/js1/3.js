@@ -5,8 +5,14 @@
  * @returns {string}
  */
 
-const solution = (a, b) => {
-  return 0;
+const solution = (a, b) => 
+{  const sum(x=a, counter=0, b=""){
+  if(x===count) {
+    return b;
+  }
+  b += 'hello';
+  return sum(x, count+1,b);
+  };
 };
 
 module.exports = {
