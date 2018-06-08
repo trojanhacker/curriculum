@@ -8,9 +8,9 @@
 const solution = (a, b) => {
   const recur = (x,y, counter=0) => {
     if (x ===counter) {
-        return;
+        return counter;
     };
-    recur(x,y,counter+1);
+    return recur(x,y,counter+1);
   };
   return recur(a,b);
 };
