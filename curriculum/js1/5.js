@@ -6,7 +6,13 @@
  */
 
 const solution = (a, b) => {
-  return 0;
+  const recur = (x,y, counter=0) => {
+    if (x ===counter) {
+        return;
+    };
+    recur(x,y,counter+1);
+  };
+  return recur(a,b);
 };
 
 module.exports = {
